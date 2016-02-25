@@ -1,0 +1,25 @@
+body{
+font-family: sans-serif, Verdana;
+margin: 100px;
+}
+.tweet-container{
+border: 1px solid #ccc;
+padding: 25px 54px;
+border-radius: 5px;
+width: 530px;
+margin: 0 auto;
+}
+.name-area .avatar{
+  border-radius: 5px;
+  float: left;
+  margin-right: 10px;
+}
+.name-area .name{
+  font-weight: bold;
+  padding-top: 7px;
+}
+.actions{
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
