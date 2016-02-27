@@ -1,11 +1,12 @@
 body{
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
+  height: 100%;
   margin: 0px;
 }
 header{
 height: 450px;
-background-image: url(img/74H.jpg);
+background-image: url(img/204H.jpg);
 background-position: center center;
 background-size: cover;
 }
@@ -34,9 +35,9 @@ nav a:hover{
 header h1{
   text-align: center;
   font-size: 72px;
-  font-weight: 700;
   color: white;
   text-transform: uppercase;
+  font-weight: 700;
   letter-spacing: 0.05em;
   padding-top: 100px;
   margin-bottom: 20px;
@@ -57,9 +58,11 @@ header h1 span{
 }
 footer{
   height: 150px;
-  background-image: url(img/74H.jpg);
+  background-image: url(img/204H.jpg);
   background-position: center center;
   background-size: cover;
+}
+.contact-send{
 }
 footer .lockup{
     padding: 50px 30px;

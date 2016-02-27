@@ -1,0 +1,56 @@
+$accent-color: #e1c184
+$accent-dark: #c99065
+$bgcolor: #e5eaee
+
+h3
+  font-size: 14px
+  text-transform: uppercase
+  font-weight: 700
+  color: $accent-color
+  text-align: center
+  padding: 100px 0 30px 0
+
+.face-lockup
+  max-width: 780px
+  display: flex
+  margin: 0 auto
+  align-items: center
+  justify-content: space-around
+
+  .face-img
+    width: 200px
+    height: 200px
+    background-color:  $accent-color
+    border-radius: 50%
+    order: 3
+
+  [class^="icon-"]
+    width: 100px
+    height: 100px
+    background: $bgcolor
+    border-radius: 50%
+
+    path
+      fill: $accent-dark
+
+  .icon-pencil
+    order: 1
+  .icon-mouse
+    order: 2
+  .icon-browser
+    order: 4
+  .icon-video
+    order: 5
+
+@media screen and (max-width: 650px)
+  .face-lockup
+    display: block
+    text-align: center
+
+.blurb
+  max-width: 620px
+  padding: 0 15px
+  margin: 50px auto 50px
+  font-size: 24px
+  text-align: center
+  font-weight: 300
