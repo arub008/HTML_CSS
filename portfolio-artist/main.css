@@ -22,7 +22,8 @@ h3 {
     width: 100px;
     height: 100px;
     background: #e5eaee;
-    border-radius: 50%; }
+    border-radius: 50%;
+    margin: 10px; }
     .face-lockup [class^="icon-"] path {
       fill: #c99065; }
   .face-lockup .icon-pencil {
@@ -53,5 +54,54 @@ h3 {
   font-size: 24px;
   text-align: center;
   font-weight: 300; }
+
+.skill-lockup {
+  max-width: 700px;
+  margin: 100px auto;
+  color: #999; }
+  .skill-lockup .skill-unit {
+    width: 350px; }
+  .skill-lockup .skill-icons {
+    font-size: 0;
+    margin: 2px 0 30px; }
+    .skill-lockup .skill-icons span {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      background-color: #e1c184;
+      margin-right: 5px;
+      border-radius: 50%; }
+      .skill-lockup .skill-icons span:after {
+        content: "";
+        display: block;
+        width: 10px;
+        height: 10px;
+        background: #fff;
+        border-radius: 50%;
+        margin: 2px; }
+    .skill-lockup .skill-icons.skill-1 span:nth-child(n+1) {
+      background: #e5eaee; }
+    .skill-lockup .skill-icons.skill-2 span:nth-child(n+2) {
+      background: #e5eaee; }
+    .skill-lockup .skill-icons.skill-3 span:nth-child(n+3) {
+      background: #e5eaee; }
+    .skill-lockup .skill-icons.skill-4 span:nth-child(n+4) {
+      background: #e5eaee; }
+    .skill-lockup .skill-icons.skill-5 span:nth-child(n+5) {
+      background: #e5eaee; }
+    .skill-lockup .skill-icons.skill-6 span:nth-child(n+6) {
+      background: #e5eaee; }
+    .skill-lockup .skill-icons.skill-7 span:nth-child(n+7) {
+      background: #e5eaee; }
+    .skill-lockup .skill-icons.skill-8 span:nth-child(n+8) {
+      background: #e5eaee; }
+    .skill-lockup .skill-icons.skill-9 span:nth-child(n+9) {
+      background: #e5eaee; }
+    .skill-lockup .skill-icons.skill-10 span:nth-child(n+10) {
+      background: #e5eaee; }
+
+@media screen and (max-width: 541px) {
+  .skill-lockup {
+    width: 270px; } }
 
 /*# sourceMappingURL=main.css.map */
